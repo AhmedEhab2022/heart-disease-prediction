@@ -80,7 +80,6 @@ See `requirements.txt` for all Python dependencies.
 ## Credits
 
 - Dataset: [UCI Machine Learning Repository - Heart Disease Data Set](https://archive.ics.uci.edu/dataset/45/heart+disease)
-- Developed by: [Your Name or Team]
 
 ## License
 
