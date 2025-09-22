@@ -1,0 +1,27 @@
+Combined Summary of Baseline and Tuned Models sorted by ROC AUC, Recall, F1 Score, Accuracy, Precision respectively:
+
+                                                     Model  Accuracy  Precision  Recall  F1 Score  ROC AUC     Type
+                SVM RandomizedSearchCV (Selected Features)    0.9000     0.9091  0.8333    0.8696   0.9537    Tuned
+                      SVM GridSearchCV (Selected Features)    0.9000     0.9091  0.8333    0.8696   0.9537    Tuned
+                         Random Forest (Selected Features)    0.8833     0.8400  0.8750    0.8571   0.9525 Baseline
+      Random Forest RandomizedSearchCV (Selected Features)    0.8500     0.8000  0.8333    0.8163   0.9502    Tuned
+            Random Forest GridSearchCV (Selected Features)    0.8500     0.8000  0.8333    0.8163   0.9502    Tuned
+                                       Random Forest (PCA)    0.8500     0.8000  0.8333    0.8163   0.9468 Baseline
+                   Logistic Regression (Selected Features)    0.8333     0.7500  0.8750    0.8077   0.9444 Baseline
+                                   SVM (Selected Features)    0.8833     0.8696  0.8333    0.8511   0.9421 Baseline
+Logistic Regression RandomizedSearchCV (Selected Features)    0.8333     0.7500  0.8750    0.8077   0.9398    Tuned
+      Logistic Regression GridSearchCV (Selected Features)    0.8333     0.7500  0.8750    0.8077   0.9398    Tuned
+                                 Logistic Regression (PCA)    0.8500     0.7586  0.9167    0.8302   0.9387 Baseline
+              Logistic Regression RandomizedSearchCV (PCA)    0.8333     0.7333  0.9167    0.8148   0.9387    Tuned
+                    Logistic Regression GridSearchCV (PCA)    0.8333     0.7333  0.9167    0.8148   0.9387    Tuned
+                              SVM RandomizedSearchCV (PCA)    0.8667     0.8077  0.8750    0.8400   0.9387    Tuned
+                                                 SVM (PCA)    0.9000     0.8462  0.9167    0.8800   0.9352 Baseline
+                                    SVM GridSearchCV (PCA)    0.8667     0.7857  0.9167    0.8462   0.9306    Tuned
+                    Random Forest RandomizedSearchCV (PCA)    0.8167     0.7407  0.8333    0.7843   0.9259    Tuned
+                          Random Forest GridSearchCV (PCA)    0.8167     0.7407  0.8333    0.7843   0.9259    Tuned
+            Decision Tree GridSearchCV (Selected Features)    0.8000     0.7500  0.7500    0.7500   0.8958    Tuned
+                    Decision Tree RandomizedSearchCV (PCA)    0.8000     0.7143  0.8333    0.7692   0.8200    Tuned
+                          Decision Tree GridSearchCV (PCA)    0.8000     0.7143  0.8333    0.7692   0.8200    Tuned
+                         Decision Tree (Selected Features)    0.8167     0.7407  0.8333    0.7843   0.8194 Baseline
+      Decision Tree RandomizedSearchCV (Selected Features)    0.7667     0.7273  0.6667    0.6957   0.7899    Tuned
+                                       Decision Tree (PCA)    0.7333     0.6429  0.7500    0.6923   0.7361 Baseline

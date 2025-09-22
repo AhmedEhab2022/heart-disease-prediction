@@ -1,0 +1,11 @@
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

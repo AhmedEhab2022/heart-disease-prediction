@@ -1,0 +1,163 @@
+Logistic Regression (PCA):
+
+Accuracy: 0.8500
+Precision: 0.7586
+Recall: 0.9167
+F1 Score: 0.8302
+ROC AUC: 0.9387
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.81      0.87        36
+           1       0.76      0.92      0.83        24
+
+    accuracy                           0.85        60
+   macro avg       0.85      0.86      0.85        60
+weighted avg       0.86      0.85      0.85        60
+
+=====================================================
+
+Logistic Regression (Selected Features):
+
+Accuracy: 0.8333
+Precision: 0.7500
+Recall: 0.8750
+F1 Score: 0.8077
+ROC AUC: 0.9444
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.81      0.85        36
+           1       0.75      0.88      0.81        24
+
+    accuracy                           0.83        60
+   macro avg       0.83      0.84      0.83        60
+weighted avg       0.84      0.83      0.83        60
+
+=====================================================
+
+Decision Tree (PCA):
+
+Accuracy: 0.7333
+Precision: 0.6429
+Recall: 0.7500
+F1 Score: 0.6923
+ROC AUC: 0.7361
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.72      0.76        36
+           1       0.64      0.75      0.69        24
+
+    accuracy                           0.73        60
+   macro avg       0.73      0.74      0.73        60
+weighted avg       0.74      0.73      0.74        60
+
+=====================================================
+
+Decision Tree (Selected Features):
+
+Accuracy: 0.8167
+Precision: 0.7407
+Recall: 0.8333
+F1 Score: 0.7843
+ROC AUC: 0.8194
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.81      0.84        36
+           1       0.74      0.83      0.78        24
+
+    accuracy                           0.82        60
+   macro avg       0.81      0.82      0.81        60
+weighted avg       0.82      0.82      0.82        60
+
+=====================================================
+
+Random Forest (PCA):
+
+Accuracy: 0.8500
+Precision: 0.8000
+Recall: 0.8333
+F1 Score: 0.8163
+ROC AUC: 0.9468
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.86      0.87        36
+           1       0.80      0.83      0.82        24
+
+    accuracy                           0.85        60
+   macro avg       0.84      0.85      0.84        60
+weighted avg       0.85      0.85      0.85        60
+
+=====================================================
+
+Random Forest (Selected Features):
+
+Accuracy: 0.8833
+Precision: 0.8400
+Recall: 0.8750
+F1 Score: 0.8571
+ROC AUC: 0.9525
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90        36
+           1       0.84      0.88      0.86        24
+
+    accuracy                           0.88        60
+   macro avg       0.88      0.88      0.88        60
+weighted avg       0.88      0.88      0.88        60
+
+=====================================================
+
+SVM (PCA):
+
+Accuracy: 0.9000
+Precision: 0.8462
+Recall: 0.9167
+F1 Score: 0.8800
+ROC AUC: 0.9352
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.91        36
+           1       0.85      0.92      0.88        24
+
+    accuracy                           0.90        60
+   macro avg       0.89      0.90      0.90        60
+weighted avg       0.90      0.90      0.90        60
+
+=====================================================
+
+SVM (Selected Features):
+
+Accuracy: 0.8833
+Precision: 0.8696
+Recall: 0.8333
+F1 Score: 0.8511
+ROC AUC: 0.9421
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90        36
+           1       0.87      0.83      0.85        24
+
+    accuracy                           0.88        60
+   macro avg       0.88      0.88      0.88        60
+weighted avg       0.88      0.88      0.88        60
+
+=====================================================
+
+Summary of Model Performance (Sorted descending based on ROC AUC, Recall, F1 Score, Accuracy, Precision respectively):
+
+                                  Model  Accuracy  Precision  Recall  F1 Score  ROC AUC
+      Random Forest (Selected Features)    0.8833     0.8400  0.8750    0.8571   0.9525
+                    Random Forest (PCA)    0.8500     0.8000  0.8333    0.8163   0.9468
+Logistic Regression (Selected Features)    0.8333     0.7500  0.8750    0.8077   0.9444
+                SVM (Selected Features)    0.8833     0.8696  0.8333    0.8511   0.9421
+              Logistic Regression (PCA)    0.8500     0.7586  0.9167    0.8302   0.9387
+                              SVM (PCA)    0.9000     0.8462  0.9167    0.8800   0.9352
+      Decision Tree (Selected Features)    0.8167     0.7407  0.8333    0.7843   0.8194
+                    Decision Tree (PCA)    0.7333     0.6429  0.7500    0.6923   0.7361

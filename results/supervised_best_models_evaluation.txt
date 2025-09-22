@@ -1,0 +1,16 @@
+Best Overall Models:
+
+                                     Model  Accuracy  Precision  Recall  F1 Score  ROC AUC  Type
+SVM RandomizedSearchCV (Selected Features)       0.9     0.9091  0.8333    0.8696   0.9537 Tuned
+      SVM GridSearchCV (Selected Features)       0.9     0.9091  0.8333    0.8696   0.9537 Tuned
+
+Best PCA Model:
+
+    Model  Accuracy  Precision  Recall  F1 Score  ROC AUC     Type
+SVM (PCA)       0.9     0.8462  0.9167      0.88   0.9352 Baseline
+
+Best Selected Features Models:
+
+                                     Model  Accuracy  Precision  Recall  F1 Score  ROC AUC  Type
+SVM RandomizedSearchCV (Selected Features)       0.9     0.9091  0.8333    0.8696   0.9537 Tuned
+      SVM GridSearchCV (Selected Features)       0.9     0.9091  0.8333    0.8696   0.9537 Tuned

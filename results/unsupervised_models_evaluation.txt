@@ -1,0 +1,7 @@
+Unsupervised Baseline Models Evaluation Results (Sorted descending based on ARI and Silhouette Score respectively)
+
+                 Method      ARI  Silhouette Score
+Hierarchical (Selected) 0.158275          0.108333
+          K-Means (PCA) 0.152557          0.110944
+     K-Means (Selected) 0.145678          0.147229
+     Hierarchical (PCA) 0.057683          0.092917
