@@ -7,7 +7,7 @@ This project aims to analyze, preprocess, and model the UCI Heart Disease datase
 ## Project Structure
 
 ```
-Heart_Disease_Project/
+heart-disease-prediction/
 │
 ├── data/                # Raw and processed datasets (CSV)
 ├── models/              # Saved model files (pkl)
@@ -49,7 +49,7 @@ Heart_Disease_Project/
 1. Clone the repository:
    ```bash
    git clone https://github.com/AhmedEhab2022/heart-disease-prediction.git
-   cd Heart_Disease_Project
+   cd heart-disease-prediction
    ```
 2. (Optional) Create and activate a virtual environment:
    ```bash
