@@ -48,7 +48,7 @@ Heart_Disease_Project/
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/AhmedEhab2022/heart-disease-prediction.git
    cd Heart_Disease_Project
    ```
 2. (Optional) Create and activate a virtual environment:
