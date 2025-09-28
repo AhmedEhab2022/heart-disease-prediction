@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to analyze, preprocess, and model the UCI Heart Disease dataset using supervised and unsupervised machine learning techniques. The workflow includes data cleaning, feature engineering, dimensionality reduction (PCA), feature selection, model training, evaluation, and hyperparameter tuning. The project is organized for reproducibility and ease of experimentation.
+This project aims to analyze, preprocess, and model the UCI Heart Disease dataset using supervised and unsupervised machine learning techniques. The workflow includes data cleaning, dimensionality reduction (PCA), feature selection, model training, evaluation, and hyperparameter tuning. The project is organized for reproducibility and ease of experimentation.
 
 ## Project Structure
 
